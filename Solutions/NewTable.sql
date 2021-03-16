@@ -28,3 +28,11 @@ ADD
     REFERENCES 
         student(Rollno)
 ;
+
+--Insert records into Personal
+
+INSERT INTO Personal (Roll, Parent, Address, Phone_No) VALUES (2, 'ABC', '1st Cross Street', 12345678);
+INSERT INTO Personal (Roll, Parent, Address, Phone_No) VALUES (3, 'XYZ', '2nd Cross Street', 41234561);
+INSERT INTO Personal (Roll, Parent, Address, Phone_No) VALUES (4,'PQR', '3rd Cross Street', 12370171);
+INSERT INTO Personal (Roll, Parent, Address, Phone_No) VALUES (7, 'LMN', '4th Cross Street', 40007714);
+INSERT INTO Personal (Roll, Parent, Address, Phone_No) VALUES (9, 'ABCD', '5th Cross Street', 56789101);
