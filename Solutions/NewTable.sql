@@ -22,11 +22,15 @@ CREATE TABLE Personal(
 ALTER TABLE
     Personal
 ADD
+    CONSTRAINT
+        Personal_fk
     FOREIGN KEY(
         Roll
     )
     REFERENCES 
         student(Rollno)
+ON DELETE CASCADE
+ON UPDATE CASCADE 
 ;
 
 --Insert records into Personal
